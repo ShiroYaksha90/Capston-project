@@ -245,13 +245,13 @@ body {
 }
 
 .featured-speakers h2 {
-  padding: 2%;
+  padding: 2% 2% 0 2%;
 }
 
 .featured-speakers hr {
   width: 6%;
   height: 1px;
-  margin: 2%;
+  margin: 1% 2% 2% 2%;
   background: #ec5242;
   border: 0;
 }
@@ -546,13 +546,13 @@ body {
   }
 
   .featured-speakers h2 {
-    padding: 2%;
+    padding: 2% 2% 0 2%;
   }
 
   .featured-speakers hr {
     width: 6%;
     height: 1px;
-    margin: 2%;
+    margin: 1% 2% 2% 2%;
     background: #ec5242;
     border: 0;
   }
