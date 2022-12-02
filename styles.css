@@ -21,8 +21,10 @@ body {
   }
 
   .hamburger {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
+    gap: 2px;
     padding: 20px;
   }
 
@@ -104,7 +106,7 @@ body {
   }
 
   .main-container {
-    padding: 10% 7% 0 7%;
+    padding: 17% 3% 0 3%;
   }
 }
 
@@ -112,6 +114,7 @@ body {
   font-size: 1rem;
   color: #ec5242;
   font-weight: normal;
+  padding: 3% 0;
   margin: 0;
 }
 
@@ -124,24 +127,24 @@ body {
   font-weight: bold;
   line-height: 2rem;
   margin: 0;
-  padding: 2% 30% 2% 1%;
+  padding: 3% 30% 3% 1%;
 }
 
 .main-desc {
   border: 2px solid #fff;
-  padding: 2% 10% 2% 1%;
+  padding: 3% 10% 3% 1%;
   width: 90%;
 }
 
 .main-container h3 {
   font-weight: 900;
-  font-size: medium;
-  padding: 1% 0;
+  font-size: large;
+  padding: 3% 0;
   margin: 0;
 }
 
 .main-container p {
-  padding: 1% 0;
+  padding: 3% 0;
   margin: 0;
 }
 
@@ -156,12 +159,13 @@ body {
 
 .main-program-container h3 {
   padding: 2%;
+  margin: 0;
 }
 
 .main-program-container hr {
-  margin: 2%;
+  margin: 0 0 5% 0;
   width: 6%;
-  height: 2px;
+  height: 1px;
   background: #ec5242;
   border: 0;
 }
@@ -175,8 +179,10 @@ body {
   grid-template-rows: auto auto auto auto auto;
   justify-content: center;
   align-items: baseline;
-  width: 90%;
+  width: 100%;
+  margin: 0 5% 0 3%;
   padding: 0 6%;
+  padding-inline-start: 0;
   gap: 4px;
 }
 
@@ -188,6 +194,8 @@ body {
 
 .main-grid h3 {
   font-size: 0.6rem;
+  text-align: center;
+  color: #ec5242;
   margin: 0;
   width: 26%;
   padding: 4px;
@@ -196,7 +204,7 @@ body {
 .main-grid p {
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   height: 100%;
   width: 100%;
   font-size: 14px;
@@ -220,9 +228,9 @@ body {
 .main-program-container button {
   background-color: #ec5242;
   color: #fff;
-  margin: 3%;
+  margin: 9% 3% 0% 3%;
   align-items: center;
-  padding: 3% 10%;
+  padding: 5% 10%;
 }
 
 #h3 {
@@ -242,7 +250,7 @@ body {
 
 .featured-speakers hr {
   width: 6%;
-  height: 2px;
+  height: 1px;
   margin: 2%;
   background: #ec5242;
   border: 0;
@@ -290,7 +298,7 @@ body {
 
 .speakerscontent hr {
   width: 6%;
-  height: 2px;
+  height: 1px;
   background: #d3d3d3;
   border: 0;
   margin: 1%;
@@ -318,7 +326,7 @@ body {
 
 .footer hr {
   width: 3%;
-  height: 2px;
+  height: 1px;
   background: #ec5242;
   border: 0;
 }
@@ -460,13 +468,13 @@ body {
   }
 
   .main-program-container h3 {
-    padding: 2%;
+    padding: 2% 2% 1% 2%;
   }
 
   .main-program-container hr {
     width: 6%;
-    height: 2px;
-    margin: 2%;
+    height: 1px;
+    margin: 0% 0 3% 0;
     background: #ec5242;
     border: 0;
   }
@@ -476,7 +484,8 @@ body {
     grid-template-columns: auto auto auto auto auto;
     justify-content: center;
     align-items: baseline;
-    padding: 0;
+    padding: 0 10%;
+    margin: 0;
     gap: 4px;
   }
 
@@ -487,17 +496,19 @@ body {
   }
 
   .main-grid h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: 0;
-    padding: 10px;
+    width: 100%;
+    padding: 9px 0;
+    text-align: center;
   }
 
   .main-grid p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100px;
-    width: 150px;
+    height: 90px;
+    width: 100%;
     font-size: 14px;
     margin: 0;
   }
@@ -507,6 +518,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     background-image: url(./assets/ul-bg.png);
   }
 
@@ -515,7 +527,7 @@ body {
   }
 
   .main-program-content {
-    padding: 0 25%;
+    width: 100%;
   }
 
   #h3 {
@@ -539,7 +551,7 @@ body {
 
   .featured-speakers hr {
     width: 6%;
-    height: 2px;
+    height: 1px;
     margin: 2%;
     background: #ec5242;
     border: 0;
@@ -587,7 +599,7 @@ body {
 
   .speakerscontent hr {
     width: 6%;
-    height: 2px;
+    height: 1px;
     background: #d3d3d3;
     border: 0;
     margin: 0;
@@ -615,7 +627,7 @@ body {
 
   .footer hr {
     width: 3%;
-    height: 2px;
+    height: 1px;
     background: #ec5242;
     border: 0;
   }
@@ -780,7 +792,7 @@ body {
   .logo hr {
     margin: 2%;
     width: 6%;
-    height: 2px;
+    height: 1px;
     background: #ec5242;
     border: 0;
   }
@@ -806,7 +818,7 @@ body {
   #logo-hr {
     margin: 2%;
     width: 100%;
-    height: 2px;
+    height: 1px;
     background: #d3d3d3;
     border: 0;
   }
@@ -915,7 +927,8 @@ body {
     font-size: 1rem;
     color: #ec5242;
     font-weight: normal;
-    padding-top: 9%;
+    padding: 2%;
+    margin: 15% 0 0 0;
   }
 
   .about-content h2 {
@@ -927,7 +940,7 @@ body {
     font-weight: bold;
     line-height: 2rem;
     margin: 0;
-    padding: 3% 15%;
+    padding: 0% 10%;
   }
 
   .about-contact {
@@ -975,7 +988,7 @@ body {
   .logo hr {
     margin: 2%;
     width: 6%;
-    height: 2px;
+    height: 1px;
     background: #ec5242;
     border: 0;
   }
@@ -1001,7 +1014,7 @@ body {
   #logo-hr {
     margin: 2%;
     width: 100%;
-    height: 2px;
+    height: 1px;
     background: #d3d3d3;
     border: 0;
   }
