@@ -28,7 +28,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[IT Live Anuual conference]** is a website about IT Live Conferencd
+**[IT Live Anuual conference]** is a website about IT Live Conference
 
 [Video Presentation](https://www.loom.com/share/8a8a772d8714461bbc1a746698868415)
 
@@ -110,6 +110,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/ShiroYaksha90/Mobile-first/blob/main/LICENSE.md) licensed.
+This [project](https://github.com/ShiroYaksha90/Capston-project.git) is [MIT](https://github.com/ShiroYaksha90/Mobile-first/blob/main/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
