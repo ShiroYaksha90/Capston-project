@@ -566,6 +566,7 @@ body {
   .speakers {
     display: grid;
     grid-template-columns: auto auto;
+    margin-bottom: 4%;
   }
 
   .speaker {
