@@ -125,7 +125,7 @@ body {
   font-weight: bold;
   line-height: 2rem;
   margin: 0;
-  padding: 1% 25% 3% 1%;
+  padding: 1% 1% 3% 1%;
 }
 
 .main-desc {
@@ -157,7 +157,7 @@ body {
 
 .main-program-container h3 {
   padding: 2%;
-  margin: 0;
+  margin: 4% 0 0 0;
 }
 
 .main-program-container hr {
@@ -573,7 +573,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 0 13%;
   }
 
   .speakerscontent {
@@ -629,7 +629,7 @@ body {
   .footer h2 {
     color: #7d7d7d;
     margin: 0;
-    padding: 1% 0;
+    padding: 3% 0 1% 0;
   }
 
   .footer hr {
@@ -645,6 +645,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    margin: 2% 0;
   }
 
   .partners img {

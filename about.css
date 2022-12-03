@@ -113,7 +113,7 @@ body {
 }
 
 .about-content h1 {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #ec5242;
   font-weight: normal;
   padding: 2%;
@@ -129,7 +129,7 @@ body {
   font-weight: bold;
   line-height: 2rem;
   text-align: center;
-  margin: 10% 0 0 0;
+  margin: 0;
 }
 
 .about-contact {
@@ -185,7 +185,7 @@ body {
 .logo p {
   padding: 3% 10% 3% 10%;
   color: #272a31;
-  font-size: 18px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -193,6 +193,7 @@ body {
   width: 90%;
   border: 2px solid #d3d3d3;
   text-align: center;
+  margin: 8% 0;
 }
 
 .logo-part img {
@@ -307,8 +308,9 @@ body {
   background-color: #d3d3d3;
 }
 
-.lastitems-about img {
+.lastitems-about-mobile img {
   width: 15%;
+  height: 100px;
 }
 
 .lastitems-about p {
@@ -382,6 +384,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .about-content h1 {
+    display: none;
   }
 
   .about-content h2 {
@@ -460,7 +466,7 @@ body {
   }
 
   .logo-part {
-    width: 40%;
+    width: 50%;
     border: 2px solid #d3d3d3;
     text-align: center;
   }
