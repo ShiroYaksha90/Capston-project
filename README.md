@@ -30,7 +30,7 @@
 
 **[IT Live Anuual conference]** is a website about IT Live Conference
 
-[Video Presentation](https://www.loom.com/share/9160b9208c9f41379bbf3dfe396ff78e)
+[Video Presentation](https://www.loom.com/share/126f0c0ce02448eaafe59c5ba97d4e4e)
 
 ## 🛠 Built With <a name="built-with"></a>
 
